@@ -1,0 +1,12 @@
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\bin\Debug\EczaneOtomasyonu.exe.config
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\bin\Debug\EczaneOtomasyonu.exe
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\bin\Debug\EczaneOtomasyonu.pdb
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.csprojAssemblyReference.cache
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Properties.Resources.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.csproj.GenerateResource.cache
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.csproj.CoreCompileInputs.cache
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.exe
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.pdb
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form1.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form2.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form3.resources
