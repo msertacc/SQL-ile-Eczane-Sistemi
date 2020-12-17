@@ -17,6 +17,16 @@ namespace EczaneOtomasyonu
         string value1,value2,value3,value4,value5,value6;
         SqlDataAdapter komut;
 
+
+        private void Yenile()
+        {
+            table.Clear();
+            komut = new SqlDataAdapter("select Urun.UrunBarkod,Urun.UrunAd,Urun.UrunFiyat,TedarikFirma.TedarikFirmaAd,UreticiSirket.UreticiSirketAd, UrunKategori.UrunKategoriAd from Urun inner join TedarikFirma on Urun.TedarikFirmaID = TedarikFirma.TedarikFirmaID inner join UreticiSirket on Urun.UreticiSirketID = UreticiSirket.UreticiSirketID inner join UrunKategori on Urun.UrunKategoriID = UrunKategori.UrunKategoriID ", conn);
+            komut.Fill(table);
+            dataGridView1.DataSource = table;
+            dataGridView1.Refresh();
+        }
+
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (!checkBox1.Checked)
@@ -27,7 +37,6 @@ namespace EczaneOtomasyonu
             }
             else
             {
-
                 txtBarkod.Enabled = true;
                 button2.Enabled = false;
                 button1.Enabled = true;
@@ -58,6 +67,34 @@ namespace EczaneOtomasyonu
                 updateCommand.ExecuteNonQuery();
 
             }
+            Yenile();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            using(SqlCommand deleteCommand = conn.CreateCommand())
+            {
+                dynamic uAd = txtAd.Text;
+                dynamic uBarkod = txtBarkod.Text;
+                dynamic uFiyat = txtFiyat.Text;
+                dynamic uTedarik = comboBox1.Text;
+                dynamic uUretici = comboUretici.Text;
+                dynamic uKtg = comboKtg.Text;
+
+                deleteCommand.CommandText = "delete from Urun where UrunBarkod = @uBarkod";
+
+                deleteCommand.Parameters.Add("@uBarkod", uBarkod);
+                deleteCommand.ExecuteNonQuery();
+
+            }
+            Yenile();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form4 frm = new Form4();
+            frm.Show();
+            this.Hide();
         }
 
         DataTable table = new DataTable();
@@ -91,10 +128,7 @@ namespace EczaneOtomasyonu
         private void Form3_Load(object sender, EventArgs e)
         {
             conn = new SqlConnection("Data Source=.;Initial Catalog=EczaneSistemi;Integrated Security=True;MultipleActiveResultSets=true");
-            komut = new SqlDataAdapter("select Urun.UrunBarkod,Urun.UrunAd,Urun.UrunFiyat,TedarikFirma.TedarikFirmaAd,UreticiSirket.UreticiSirketAd, UrunKategori.UrunKategoriAd from Urun inner join TedarikFirma on Urun.TedarikFirmaID = TedarikFirma.TedarikFirmaID inner join UreticiSirket on Urun.UreticiSirketID = UreticiSirket.UreticiSirketID inner join UrunKategori on Urun.UrunKategoriID = UrunKategori.UrunKategoriID ", conn);
-
-            komut.Fill(table);
-            dataGridView1.DataSource = table;
+            Yenile();
 
             SqlCommand sqlCmdTedarik = new SqlCommand("select *from TedarikFirma", conn);
             SqlCommand sqlCmdUretici = new SqlCommand("select *from UreticiSirket", conn);
@@ -118,6 +152,7 @@ namespace EczaneOtomasyonu
                 comboKtg.Items.Add(sqlKtg["UrunKategoriAd"].ToString());
             }
             button1.Enabled = false;
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -153,7 +188,8 @@ namespace EczaneOtomasyonu
             comboBox1.Text = "";
             comboUretici.Text = "";
             comboKtg.Text = "";
-            dataGridView1.Refresh();
+
+            Yenile();
         }
 
 

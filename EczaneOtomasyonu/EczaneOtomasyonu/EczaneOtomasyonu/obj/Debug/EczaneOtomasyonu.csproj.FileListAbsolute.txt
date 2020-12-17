@@ -10,3 +10,6 @@ D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Deb
 D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form1.resources
 D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form2.resources
 D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form3.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form4.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.KategoriForm.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Tedarik_Üretici.resources

@@ -45,6 +45,8 @@ namespace EczaneOtomasyonu
             this.comboKtg = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -194,11 +196,37 @@ namespace EczaneOtomasyonu
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Red;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.Location = new System.Drawing.Point(375, 435);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(129, 52);
+            this.button3.TabIndex = 17;
+            this.button3.Text = "SİL";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button4.Location = new System.Drawing.Point(555, 435);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(129, 52);
+            this.button4.TabIndex = 18;
+            this.button4.Text = "Stoğa Git";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(923, 509);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.comboKtg);
@@ -242,5 +270,7 @@ namespace EczaneOtomasyonu
         private System.Windows.Forms.ComboBox comboKtg;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }

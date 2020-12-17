@@ -13,7 +13,9 @@ namespace EczaneOtomasyonu
 {
     public partial class Form2 : Form
     {
-        
+        SqlConnection conn;
+        SqlCommand cmd;
+        SqlDataReader dr;
 
         public Form2()
         {
@@ -26,6 +28,39 @@ namespace EczaneOtomasyonu
             form3.Show();
             this.Hide();
             
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form1 frm1 = new Form1();
+            frm1.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form4 stok = new Form4();
+            stok.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            KategoriForm ktg = new KategoriForm();
+            this.Hide();
+            ktg.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Tedarik_Üretici tu = new Tedarik_Üretici();
+            this.Hide();
+            tu.Show();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
 
         }
     }
