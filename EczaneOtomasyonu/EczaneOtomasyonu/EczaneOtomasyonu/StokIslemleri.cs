@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace EczaneOtomasyonu
 {
-    public partial class Form4 : Form
+    public partial class StokIslemleri : Form
     {
-        public Form4()
+        public StokIslemleri()
         {
             InitializeComponent();
         }
@@ -30,6 +30,8 @@ namespace EczaneOtomasyonu
             dataGridView1.DataSource = table;
             dataGridView1.Refresh();
         }
+
+
         private void button3_Click(object sender, EventArgs e)
         {
             using (SqlCommand addCommand = conn.CreateCommand())
@@ -90,7 +92,14 @@ namespace EczaneOtomasyonu
             Yenile();
         }
 
-        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+		private void button5_Click(object sender, EventArgs e)
+		{
+			Menuler menu = new Menuler();
+			menu.Show();
+			this.Hide();
+		}
+
+		private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
             foreach (DataGridViewRow row in dataGridView1.SelectedRows)
             {

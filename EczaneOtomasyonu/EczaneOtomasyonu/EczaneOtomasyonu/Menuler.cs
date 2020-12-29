@@ -11,20 +11,20 @@ using System.Windows.Forms;
 
 namespace EczaneOtomasyonu
 {
-    public partial class Form2 : Form
+    public partial class Menuler : Form
     {
         SqlConnection conn;
         SqlCommand cmd;
         SqlDataReader dr;
 
-        public Form2()
+        public Menuler()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
+            Urunler form3 = new Urunler();
             form3.Show();
             this.Hide();
             
@@ -33,14 +33,14 @@ namespace EczaneOtomasyonu
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Form1 frm1 = new Form1();
+            Login frm1 = new Login();
             frm1.Show();
             this.Hide();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Form4 stok = new Form4();
+            StokIslemleri stok = new StokIslemleri();
             stok.Show();
             this.Hide();
         }
@@ -63,5 +63,31 @@ namespace EczaneOtomasyonu
         {
 
         }
-    }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Personel prs = new Personel();
+            this.Hide();
+            prs.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Musteriler mst = new Musteriler();
+            this.Hide();
+            mst.Show();
+        }
+
+		private void button9_Click(object sender, EventArgs e)
+		{
+			Raporlama rpr = new Raporlama();
+			this.Hide();
+			rpr.Show();
+		}
+	}
 }

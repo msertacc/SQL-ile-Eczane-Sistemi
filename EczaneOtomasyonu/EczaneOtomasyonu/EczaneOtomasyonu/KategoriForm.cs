@@ -127,5 +127,12 @@ namespace EczaneOtomasyonu
             }
             Yenile();
         }
-    }
+
+		private void button5_Click(object sender, EventArgs e)
+		{
+			Menuler menu = new Menuler();
+			menu.Show();
+			this.Hide();
+		}
+	}
 }

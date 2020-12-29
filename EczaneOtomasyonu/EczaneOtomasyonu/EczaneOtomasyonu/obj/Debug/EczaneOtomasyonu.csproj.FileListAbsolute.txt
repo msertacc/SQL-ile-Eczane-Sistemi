@@ -7,9 +7,12 @@ D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Deb
 D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.csproj.CoreCompileInputs.cache
 D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.exe
 D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.pdb
-D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form1.resources
-D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form2.resources
-D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form3.resources
-D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form4.resources
 D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.KategoriForm.resources
 D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Tedarik_Üretici.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Login.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Menuler.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Urunler.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Personel.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Musteriler.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.StokIslemleri.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Raporlama.resources

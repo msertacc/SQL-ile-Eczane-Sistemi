@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace EczaneOtomasyonu
 {
-    public partial class Form3 : Form
+    public partial class Urunler : Form
     {
         SqlConnection conn;
         string value1,value2,value3,value4,value5,value6;
@@ -92,12 +92,19 @@ namespace EczaneOtomasyonu
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form4 frm = new Form4();
+            StokIslemleri frm = new StokIslemleri();
             frm.Show();
             this.Hide();
         }
 
-        DataTable table = new DataTable();
+		private void button5_Click(object sender, EventArgs e)
+		{
+			Menuler menu = new Menuler();
+			menu.Show();
+			this.Hide();
+		}
+
+		DataTable table = new DataTable();
 
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
@@ -120,7 +127,7 @@ namespace EczaneOtomasyonu
 
         }
 
-        public Form3()
+        public Urunler()
         {
             InitializeComponent();
         }

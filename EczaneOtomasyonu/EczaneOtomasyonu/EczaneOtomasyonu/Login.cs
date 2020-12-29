@@ -10,12 +10,12 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 namespace EczaneOtomasyonu
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
         SqlConnection conn;
         SqlCommand cmd;
         SqlDataReader dr;
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -33,7 +33,7 @@ namespace EczaneOtomasyonu
             dr = cmd.ExecuteReader();
             if (dr.Read())
             {
-                Form2 frm2 = new Form2();
+                Menuler frm2 = new Menuler();
                 frm2.Show();
                 this.Hide();
             }
@@ -47,6 +47,16 @@ namespace EczaneOtomasyonu
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
