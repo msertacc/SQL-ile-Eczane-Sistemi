@@ -76,6 +76,12 @@
     <Compile Include="Raporlama.Designer.cs">
       <DependentUpon>Raporlama.cs</DependentUpon>
     </Compile>
+    <Compile Include="SatisAlisIade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatisAlisIade.Designer.cs">
+      <DependentUpon>SatisAlisIade.cs</DependentUpon>
+    </Compile>
     <Compile Include="Urunler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Raporlama.resx">
       <DependentUpon>Raporlama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatisAlisIade.resx">
+      <DependentUpon>SatisAlisIade.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Urunler.resx">
       <DependentUpon>Urunler.cs</DependentUpon>

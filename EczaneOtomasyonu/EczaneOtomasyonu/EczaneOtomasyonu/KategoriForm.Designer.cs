@@ -46,11 +46,11 @@ namespace EczaneOtomasyonu
 			// dataGridView1
 			// 
 			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataGridView1.Location = new System.Drawing.Point(54, 39);
+			this.dataGridView1.Location = new System.Drawing.Point(85, 45);
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.RowHeadersWidth = 51;
 			this.dataGridView1.RowTemplate.Height = 24;
-			this.dataGridView1.Size = new System.Drawing.Size(314, 171);
+			this.dataGridView1.Size = new System.Drawing.Size(348, 171);
 			this.dataGridView1.TabIndex = 0;
 			this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
 			// 
@@ -62,7 +62,7 @@ namespace EczaneOtomasyonu
 			this.ekleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.ekleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
 			this.ekleButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			this.ekleButton.Location = new System.Drawing.Point(280, 227);
+			this.ekleButton.Location = new System.Drawing.Point(360, 245);
 			this.ekleButton.Name = "ekleButton";
 			this.ekleButton.Size = new System.Drawing.Size(127, 51);
 			this.ekleButton.TabIndex = 1;
@@ -74,7 +74,7 @@ namespace EczaneOtomasyonu
 			// 
 			this.label2.AutoSize = true;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.label2.Location = new System.Drawing.Point(23, 237);
+			this.label2.Location = new System.Drawing.Point(22, 246);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(112, 20);
 			this.label2.TabIndex = 3;
@@ -83,7 +83,7 @@ namespace EczaneOtomasyonu
 			// ktAdTBox
 			// 
 			this.ktAdTBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.ktAdTBox.Location = new System.Drawing.Point(141, 238);
+			this.ktAdTBox.Location = new System.Drawing.Point(224, 243);
 			this.ktAdTBox.Name = "ktAdTBox";
 			this.ktAdTBox.Size = new System.Drawing.Size(100, 26);
 			this.ktAdTBox.TabIndex = 5;
@@ -96,7 +96,7 @@ namespace EczaneOtomasyonu
 			this.silButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.silButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
 			this.silButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			this.silButton.Location = new System.Drawing.Point(280, 286);
+			this.silButton.Location = new System.Drawing.Point(360, 304);
 			this.silButton.Name = "silButton";
 			this.silButton.Size = new System.Drawing.Size(127, 51);
 			this.silButton.TabIndex = 6;
@@ -112,7 +112,7 @@ namespace EczaneOtomasyonu
 			this.guncelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.guncelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
 			this.guncelButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			this.guncelButton.Location = new System.Drawing.Point(280, 343);
+			this.guncelButton.Location = new System.Drawing.Point(360, 361);
 			this.guncelButton.Name = "guncelButton";
 			this.guncelButton.Size = new System.Drawing.Size(127, 51);
 			this.guncelButton.TabIndex = 7;
@@ -124,7 +124,7 @@ namespace EczaneOtomasyonu
 			// 
 			this.checkBox1.AutoSize = true;
 			this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.checkBox1.Location = new System.Drawing.Point(30, 313);
+			this.checkBox1.Location = new System.Drawing.Point(29, 322);
 			this.checkBox1.Name = "checkBox1";
 			this.checkBox1.Size = new System.Drawing.Size(220, 24);
 			this.checkBox1.TabIndex = 8;
@@ -136,7 +136,7 @@ namespace EczaneOtomasyonu
 			// 
 			this.yAdLabel.AutoSize = true;
 			this.yAdLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.yAdLabel.Location = new System.Drawing.Point(23, 270);
+			this.yAdLabel.Location = new System.Drawing.Point(22, 279);
 			this.yAdLabel.Name = "yAdLabel";
 			this.yAdLabel.Size = new System.Drawing.Size(73, 20);
 			this.yAdLabel.TabIndex = 9;
@@ -145,7 +145,7 @@ namespace EczaneOtomasyonu
 			// ktGTbox
 			// 
 			this.ktGTbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.ktGTbox.Location = new System.Drawing.Point(141, 270);
+			this.ktGTbox.Location = new System.Drawing.Point(224, 279);
 			this.ktGTbox.Name = "ktGTbox";
 			this.ktGTbox.Size = new System.Drawing.Size(100, 26);
 			this.ktGTbox.TabIndex = 10;
@@ -156,9 +156,9 @@ namespace EczaneOtomasyonu
 			this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.button5.FlatAppearance.BorderSize = 0;
 			this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button5.Location = new System.Drawing.Point(27, 343);
+			this.button5.Location = new System.Drawing.Point(27, 350);
 			this.button5.Name = "button5";
-			this.button5.Size = new System.Drawing.Size(88, 78);
+			this.button5.Size = new System.Drawing.Size(108, 93);
 			this.button5.TabIndex = 16;
 			this.button5.UseVisualStyleBackColor = true;
 			this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -168,7 +168,7 @@ namespace EczaneOtomasyonu
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Ivory;
-			this.ClientSize = new System.Drawing.Size(435, 428);
+			this.ClientSize = new System.Drawing.Size(536, 455);
 			this.Controls.Add(this.button5);
 			this.Controls.Add(this.ktGTbox);
 			this.Controls.Add(this.yAdLabel);
@@ -180,7 +180,9 @@ namespace EczaneOtomasyonu
 			this.Controls.Add(this.ekleButton);
 			this.Controls.Add(this.dataGridView1);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+			this.MaximizeBox = false;
 			this.Name = "KategoriForm";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Ürün Kategori Ayarları - MSY ECZANESİ";
 			this.Load += new System.EventHandler(this.KategoriForm_Load);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -16,3 +16,4 @@ D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Deb
 D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Musteriler.resources
 D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.StokIslemleri.resources
 D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Raporlama.resources
+D:\Users\Dell\Desktop\EczaneOtomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.SatisAlisIade.resources

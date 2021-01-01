@@ -247,6 +247,7 @@
 			this.Controls.Add(this.button1);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Raporlama";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Raporlama - MSY ECZANESİ";
 			this.Load += new System.EventHandler(this.Raporlama_Load);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

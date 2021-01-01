@@ -91,6 +91,7 @@ namespace EczaneOtomasyonu
 			this.txtPass.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
 			this.txtPass.Location = new System.Drawing.Point(508, 128);
 			this.txtPass.Name = "txtPass";
+			this.txtPass.PasswordChar = '*';
 			this.txtPass.Size = new System.Drawing.Size(183, 32);
 			this.txtPass.TabIndex = 4;
 			// 
@@ -122,7 +123,6 @@ namespace EczaneOtomasyonu
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 6;
 			this.pictureBox1.TabStop = false;
-			this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
 			// 
 			// Login
 			// 
@@ -139,9 +139,11 @@ namespace EczaneOtomasyonu
 			this.Controls.Add(this.button1);
 			this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+			this.MaximizeBox = false;
 			this.Name = "Login";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Giriş - MSY ECZANESİ";
-			this.Load += new System.EventHandler(this.Form1_Load);
+
 			((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);

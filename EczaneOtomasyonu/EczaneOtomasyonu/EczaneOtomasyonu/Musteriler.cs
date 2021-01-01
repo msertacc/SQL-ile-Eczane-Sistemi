@@ -16,6 +16,7 @@ namespace EczaneOtomasyonu
         SqlConnection conn = new SqlConnection("Data Source=.;Initial Catalog=EczaneSistemi;Integrated Security=True;MultipleActiveResultSets=true");
         SqlDataAdapter komut1;
         DataTable table = new DataTable();
+
         public Musteriler()
         {
             InitializeComponent();
@@ -27,5 +28,34 @@ namespace EczaneOtomasyonu
             komut1.Fill(table);
             dataGridView1.DataSource = table;
         }
-    }
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			string ara = textBox1.Text.ToString();
+			int rowIndex = -1;
+			try
+			{
+				foreach (DataGridViewRow row in dataGridView1.Rows)
+				{
+					if (row.Cells[1].Value.ToString().Equals(ara))
+					{
+						rowIndex = row.Index;
+						break;
+					}
+				}
+				dataGridView1.Rows[rowIndex].Selected = true;
+			}
+			catch
+			{
+				MessageBox.Show("Hatalı İşlem Yapıldı.");
+			}		
+		}
+
+		private void button5_Click(object sender, EventArgs e)
+		{
+			Menuler menu = new Menuler();
+			menu.Show();
+			this.Hide();
+		}
+	}
 }

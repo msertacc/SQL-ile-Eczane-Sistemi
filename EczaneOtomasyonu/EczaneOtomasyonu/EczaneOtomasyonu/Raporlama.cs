@@ -61,8 +61,7 @@ namespace EczaneOtomasyonu
 			catch
 			{
 				MessageBox.Show("Bir hatalı işlem yapıldı..");
-			}
-			
+			}		
 		}
 
 		private void button2_Click(object sender, EventArgs e)
@@ -80,8 +79,7 @@ namespace EczaneOtomasyonu
 			catch
 			{
 				MessageBox.Show("Bir hatalı işlem yapıldı..");
-			}
-			
+			}		
 		}
 
 		private void button3_Click(object sender, EventArgs e)
@@ -118,8 +116,8 @@ namespace EczaneOtomasyonu
 			{
 				MessageBox.Show("Bir hatalı işlem yapıldı..");
 			}
-
 		}
+
 		private void button5_Click(object sender, EventArgs e)
 		{
 			Menuler menu = new Menuler();

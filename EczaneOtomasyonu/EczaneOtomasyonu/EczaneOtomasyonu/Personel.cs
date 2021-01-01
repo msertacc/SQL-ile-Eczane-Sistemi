@@ -29,5 +29,12 @@ namespace EczaneOtomasyonu
             dataGridView1.DataSource = table;
 
         }
-    }
+
+		private void button5_Click(object sender, EventArgs e)
+		{
+			Menuler menu = new Menuler();
+			menu.Show();
+			this.Hide();
+		}
+	}
 }

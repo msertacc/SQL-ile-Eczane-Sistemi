@@ -124,8 +124,10 @@ namespace EczaneOtomasyonu
 			this.Controls.Add(this.tedarikRadio);
 			this.Controls.Add(this.ureticiRadio);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+			this.MaximizeBox = false;
 			this.Name = "Tedarik_Üretici";
-			this.Text = "Tedarik_Üretici";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.Text = "Tedarik-Üretici - MSY ECZANESİ";
 			this.Load += new System.EventHandler(this.Tedarik_Üretici_Load);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
 			this.ResumeLayout(false);

@@ -15,48 +15,39 @@ namespace EczaneOtomasyonu
         SqlConnection conn;
         SqlCommand cmd;
         SqlDataReader dr;
+
         public Login()
         {
             InitializeComponent();
         }
         
         private void button1_Click(object sender, EventArgs e)
-        {
-            string user = txtUserName.Text;
-            string pass = txtPass.Text;
-            conn = new SqlConnection(@"Data Source =.; Initial Catalog = EczaneSistemi; Integrated Security = True");
-            cmd = new SqlCommand();
-            conn.Open();
-            cmd.Connection = conn;
-            cmd.CommandText = "select *from Kullanici where KullaniciAd='" + txtUserName.Text + "'AND KullaniciSifre='" + txtPass.Text + "'";
-           
-            dr = cmd.ExecuteReader();
-            if (dr.Read())
-            {
-                Menuler frm2 = new Menuler();
-                frm2.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("azazaz");
-            }
-            conn.Close();
+        {			
+				string user = txtUserName.Text;
+			    string pass = txtPass.Text;
+				conn = new SqlConnection(@"Data Source =.; Initial Catalog = EczaneSistemi; Integrated Security = True");
+				cmd = new SqlCommand();
+				conn.Open();
+				cmd.Connection = conn;
+				cmd.CommandText = "select *from Kullanici where KullaniciAd='" + txtUserName.Text + "'AND KullaniciSifre='" + txtPass.Text + "'";
+
+				dr = cmd.ExecuteReader();
+				if (dr.Read())
+				{
+					Menuler frm2 = new Menuler();
+					frm2.Show();
+					this.Hide();
+				}
+				else
+				{
+					MessageBox.Show("Hatalı Giriş Yaptiniz..");
+				}
+				conn.Close();		  
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-    }
+	}
 }
